@@ -20,13 +20,13 @@
 		C45AB9DA1F640F7000840BC4 /* libavutil.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45AB9D31F640F7000840BC4 /* libavutil.a */; };
 		C45AB9DB1F640F7000840BC4 /* libswresample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45AB9D41F640F7000840BC4 /* libswresample.a */; };
 		C45AB9DC1F640F7000840BC4 /* libswscale.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45AB9D51F640F7000840BC4 /* libswscale.a */; };
-		C45AB9DE1F641ABD00840BC4 /* shake it off.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C45AB9DD1F641ABD00840BC4 /* shake it off.mp4 */; };
 		C45ABA021F642AAE00840BC4 /* libFFmpeg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C45ABA011F642AAE00840BC4 /* libFFmpeg.a */; };
 		C45ABA051F642ACE00840BC4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45ABA041F642ACE00840BC4 /* AVFoundation.framework */; };
 		C45ABA071F642ADC00840BC4 /* libbz2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C45ABA061F642ADC00840BC4 /* libbz2.tbd */; };
 		C45ABA091F642AEB00840BC4 /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C45ABA081F642AEB00840BC4 /* libiconv.tbd */; };
 		C45ABA0B1F642AF900840BC4 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C45ABA0A1F642AF900840BC4 /* libz.tbd */; };
 		C45ABA0D1F642B0800840BC4 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C45ABA0C1F642B0800840BC4 /* CoreMedia.framework */; };
+		C4B1CCDD1F643B600060EC96 /* bird.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = C4B1CCDC1F643B600060EC96 /* bird.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -144,13 +144,13 @@
 		C45AB9D31F640F7000840BC4 /* libavutil.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libavutil.a; sourceTree = "<group>"; };
 		C45AB9D41F640F7000840BC4 /* libswresample.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswresample.a; sourceTree = "<group>"; };
 		C45AB9D51F640F7000840BC4 /* libswscale.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libswscale.a; sourceTree = "<group>"; };
-		C45AB9DD1F641ABD00840BC4 /* shake it off.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "shake it off.mp4"; sourceTree = "<group>"; };
 		C45ABA011F642AAE00840BC4 /* libFFmpeg.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFFmpeg.a; sourceTree = "<group>"; };
 		C45ABA041F642ACE00840BC4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		C45ABA061F642ADC00840BC4 /* libbz2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libbz2.tbd; path = usr/lib/libbz2.tbd; sourceTree = SDKROOT; };
 		C45ABA081F642AEB00840BC4 /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
 		C45ABA0A1F642AF900840BC4 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		C45ABA0C1F642B0800840BC4 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C4B1CCDC1F643B600060EC96 /* bird.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = bird.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,9 +202,9 @@
 				C45AB9511F62E01500840BC4 /* AppDelegate.m */,
 				C45AB9531F62E01500840BC4 /* ViewController.h */,
 				C45AB9541F62E01500840BC4 /* ViewController.m */,
+				C4B1CCDC1F643B600060EC96 /* bird.mp4 */,
 				C45AB9561F62E01500840BC4 /* Main.storyboard */,
 				C45AB9591F62E01500840BC4 /* Assets.xcassets */,
-				C45AB9DD1F641ABD00840BC4 /* shake it off.mp4 */,
 				C45AB95B1F62E01500840BC4 /* LaunchScreen.storyboard */,
 				C45AB95E1F62E01500840BC4 /* Info.plist */,
 				C45AB94D1F62E01500840BC4 /* Supporting Files */,
@@ -475,10 +475,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B1CCDD1F643B600060EC96 /* bird.mp4 in Resources */,
 				C45AB95D1F62E01500840BC4 /* LaunchScreen.storyboard in Resources */,
 				C45AB95A1F62E01500840BC4 /* Assets.xcassets in Resources */,
 				C45AB9581F62E01500840BC4 /* Main.storyboard in Resources */,
-				C45AB9DE1F641ABD00840BC4 /* shake it off.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

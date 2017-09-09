@@ -32,7 +32,7 @@ extern int ffmpeg_main(int argc, char * argv[]);
 - (IBAction)ClickFrameBtn:(UIButton *)sender {
     
     dispatch_async(dispatch_get_global_queue(0, 0), ^{
-        char *movie = (char *)[BundlePath(@"shake it off.mp4") UTF8String];
+        char *movie = (char *)[BundlePath(@"bird.mp4") UTF8String];
         char *outPic = (char *)[DocumentPath(@"%05d.jpg") UTF8String]; //
         printf("-------- DocumentPath = %s\n",outPic); // 沙盒目录
         char* a[] = {
