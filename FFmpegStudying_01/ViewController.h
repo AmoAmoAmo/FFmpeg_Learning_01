@@ -1,0 +1,15 @@
+//
+//  ViewController.h
+//  FFmpegStudying_01
+//
+//  Created by Josie on 2017/9/8.
+//  Copyright © 2017年 Josie. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface ViewController : UIViewController
+
+
+@end
+
